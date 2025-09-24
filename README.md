@@ -10,7 +10,7 @@ ActiLearn is a simple to use educational tool with the aim to make learning more
 - Detailed Summary For Provided Data
 - A Dedicated Community For Users To Interact
 
-##
+##Quick Start
 
 ## Logo
 ![Project Logo](Logo/Logo.jpg)
