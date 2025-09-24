@@ -1,9 +1,0 @@
-numpy
-pandas
-flask
-matplotlib
-librosa
-nltk
-spacy
-pypdf
-heapq
