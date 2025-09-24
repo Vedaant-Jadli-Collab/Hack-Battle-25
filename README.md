@@ -29,7 +29,7 @@ ActiLearn is a simple to use educational tool with the aim to make learning more
 This project is licensed under the MIT License.
 
 ## Directory Structure
-- `src/`: Main source code for the finance app.
+- `src/`: Main source code for the educational tool.
 - `Logo/`: Project logo and branding.
 - `requirements.txt`: Required Python packages.
 
