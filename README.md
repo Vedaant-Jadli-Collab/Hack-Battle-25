@@ -2,41 +2,37 @@
 A simple interactive educational space and tool with friendly UI. 
 
 ## Introduction
-ActiLearn is a simple to use educational tool with the aim to make learning more easy and entertaining by presenting questions in an interactive format with regular challenging quizzes selected depending upon the users past scores to help them and clarify all their doubts.
+ActiLearn is an interactive learning platform inspired by Unacademy, designed to *Simplify, Gamify, and Clarify* education. It features quizzes categorized by subject, a PDF summary converter tool, and informative pages to enhance user experience.
 
 ## Features
-- Unique Quizzes For Every User
-- Pdf To Interactive Video Generator
-- Detailed Summary For Provided Data
-- A Dedicated Community For Users To Interact
+- Subject-based quizzes with score tracking  
+- Dynamic animated backgrounds enhancing UI  
+- PDF Summary Converter to extract and summarize PDFs  
+- Dedicated pages for detailed project overview  
+- Responsive and user-friendly interface
 
-## Quick Start
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/Vedaant-Jadli-Collab/Hack-Battle-25.git
-   cd Hack-Battle-25
-   ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Getting Started
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, Safari)  
+- Optional: A local web server for best performance (e.g., VSCode Live Server)
 
-3. **Run the project:**
-   ```bash
-   python src/main.py
-   ```
+### Installation
+1. Clone the repo
+2. Open the folder in your code editor or file explorer.  
+3. Open index.html in your browser or serve the folder through a local server.
+
+## Technologies Used
+
+- HTML5  
+- CSS3 (including animations)  
+- JavaScript (ES6+)  
+- PDF.js library (for PDF parsing)
+
 ## License
 This project is licensed under the MIT License.
 
-## Directory Structure
-- `src/`: Main source code for the educational tool.
-- `Logo/`: Project logo and branding.
-- `requirements.txt`: Required Python packages.
-
-
 ## Logo
 ![Project Logo](Logo/yessssssssssssssssssss.jpg)
-
 
 
 ### Short Note
