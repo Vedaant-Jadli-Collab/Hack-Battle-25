@@ -5,9 +5,12 @@ A simple interactive educational space and tool with friendly UI.
 ActiLearn is a simple to use educational tool with the aim to make learning more easy and entertaining by presenting questions in an interactive format with regular challenging quizzes selected depending upon the users past scores to help them and clarify all their doubts.
 
 ## Features
-- Unique quizzes for every user
-- Pdf to Interactive video generator
-- 
+- Unique Quizzes For Every User
+- Pdf To Interactive Video Generator
+- Detailed Summary For Provided Data
+- A Dedicated Community For Users To Interact
+
+##
 
 ## Logo
 ![Project Logo](Logo/Logo.jpg)
