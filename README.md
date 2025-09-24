@@ -18,11 +18,21 @@ ActiLearn is a simple to use educational tool with the aim to make learning more
    ```
 2. **Install dependencies:**
    ```bash
-   
-3. 
+   pip install -r requirements.txt
+   ```
 
+3. **Run the project:**
+   ```bash
+   python src/main.py
+   ```
 ## License
 This project is licensed under the MIT License.
+
+## Directory Structure
+- `src/`: Main source code for the finance app.
+- `Logo/`: Project logo and branding.
+- `requirements.txt`: Required Python packages.
+
 
 ## Logo
 ![Project Logo](Logo/Logo.jpg)
