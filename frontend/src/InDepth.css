@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b610cc;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #d823c9, #deb4fa);
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.site-name {
+  display: inline-block;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+  vertical-align: middle;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  background-color: rgba(30, 30, 60, 0.75);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 16px;
+  color: #cba0ff;
+  letter-spacing: 1.5px;
+}
+
+p {
+  font-size: 1.15em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #e9d7ff;
+}
+
+button#githubBtn {
+  background-color: #ba6ce3;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+  display: block;
+  width: 250px;
+}
+
+button#githubBtn:hover {
+  background-color: #563dcf;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(30, 30, 70, 0.5);
+  font-size: 1em;
+  color: #c8b6ff;
+  margin-top: 50px;
+}
