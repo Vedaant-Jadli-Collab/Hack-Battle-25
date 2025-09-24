@@ -20,7 +20,10 @@ ActiLearn is a simple to use educational tool with the aim to make learning more
    ```bash
    
 3. 
-4. 
+
+## License
+This project is licensed under the MIT License.
+
 ## Logo
 ![Project Logo](Logo/Logo.jpg)
 
