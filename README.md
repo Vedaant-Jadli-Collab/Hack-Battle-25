@@ -11,7 +11,16 @@ ActiLearn is a simple to use educational tool with the aim to make learning more
 - A Dedicated Community For Users To Interact
 
 ##Quick Start
-
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/Vedaant-Jadli-Collab/Hack-Battle-25.git
+   cd Hack-Battle-25
+   ```
+2. **Install dependencies:**
+   ```bash
+   
+3. 
+4. 
 ## Logo
 ![Project Logo](Logo/Logo.jpg)
 
