@@ -51,6 +51,12 @@ const quizContainer = document.getElementById('quiz-container');
 const restartBtn = document.getElementById('restartBtn');
 const subjectSelection = document.getElementById('subject-selection');
 const subjectButtons = document.querySelectorAll('.subject-btn');
+const homeBtn = document.getElementById('homeBtn');
+
+// Home button redirects
+homeBtn.onclick = () => {
+  window.location.href = 'HB_1.html';
+};
 
 function loadQuestion() {
   const current = quizData[currentSubject][currentQuestionIndex];
