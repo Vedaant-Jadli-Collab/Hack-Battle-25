@@ -76,6 +76,62 @@ button#githubBtn:hover {
   background-color: #563dcf;
 }
 
+.contributors-section {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px solid #cba0ff;
+}
+
+.contributors-section h2 {
+  font-size: 2.2em;
+  color: #d9b2ff;
+  margin-bottom: 22px;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+.contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contributor-card {
+  background: rgba(120, 85, 200, 0.15);
+  border-radius: 12px;
+  padding: 16px 24px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(140, 78, 212, 0.7);
+  transition: background 0.3s ease;
+}
+
+.contributor-card:hover {
+  background: rgba(140, 78, 212, 0.25);
+}
+
+.contributor-name {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #e1c9ff;
+  margin-bottom: 8px;
+}
+
+.contributor-link {
+  color: #a171fb;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 6px;
+  transition: color 0.25s ease;
+}
+
+.contributor-link:hover {
+  color: #8d4edd;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
