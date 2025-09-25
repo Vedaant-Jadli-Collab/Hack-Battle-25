@@ -1,4 +1,4 @@
-# Node modules (if using any node-based tools)
+# Node.js dependencies (if used)
 node_modules/
 
 # Logs
@@ -6,29 +6,41 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment variables and API keys
+.env
+.env.local
+.env.*.local
 
 # VSCode files
 .vscode/
+.history/
+*.code-workspace
 
-# Mac system files
-*.DS_Store
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output folders (if applicable)
+dist/
+build/
+out/
 
 # Temporary files
 *.tmp
 *.temp
 
-# Ignore environment files if any
-.env
+# Ignore coverage reports
+coverage/
 
-# Ignore build/dist folders (if you add build step later)
-dist/
-build/
+# Ignore compiled JavaScript if using TypeScript
+*.tsbuildinfo
 
-.env
-*.fig~
-/designs/temp/
+# Ignore IDE files (Jetbrains, etc.)
+.idea/
+
+# Ignore Mac resource forks and system files
+.Spotlight-V100
+.Trashes
+._*
