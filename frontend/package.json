@@ -1,1 +1,22 @@
-
+{
+  "name": "ActiLearn",
+  "version": "1.0.0",
+  "description": "ActiLearn - A Minecraft-inspired learning platform with quizzes and PDF summary converter",
+  "main": "HB_1.html",
+  "scripts": {
+    "start": "live-server --open=HB_1.html"
+  },
+  "keywords": [
+    "learning",
+    "quiz",
+    "pdf",
+    "summary",
+    "minecraft-theme",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
