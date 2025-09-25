@@ -3,6 +3,8 @@ const summarizeBtn = document.getElementById('summarizeBtn');
 const extractedTextArea = document.getElementById('extractedText');
 const summaryTextArea = document.getElementById('summaryText');
 
+const OPEN_AI_KEY = process.env.OPEN_AI_KEY; //set you key in environment
+ 
 summarizeBtn.addEventListener('click', () => {
   if (!pdfInput.files.length) {
     alert('Please select a PDF file.');
@@ -36,4 +38,35 @@ summarizeBtn.addEventListener('click', () => {
   };
 
   reader.readAsArrayBuffer(file);
+});
+const calcDisplay = document.getElementById('calc-display');
+const calcButtons = document.querySelectorAll('.calc-btn');
+const clearBtn = document.getElementById('clear-btn');
+const equalsBtn = document.getElementById('equals-btn');
+
+calcButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const val = button.getAttribute('data-value');
+
+    if (!button.id) {
+      if (calcDisplay.value === '0' && val !== '.') {
+        calcDisplay.value = val;
+      } else {
+        calcDisplay.value += val;
+      }
+    }
+  });
+});
+
+clearBtn.addEventListener('click', () => {
+  calcDisplay.value = '';
+});
+
+equalsBtn.addEventListener('click', () => {
+  try {
+    const result = eval(calcDisplay.value);
+    calcDisplay.value = result !== undefined ? result : '';
+  } catch {
+    calcDisplay.value = 'Error';
+  }
 });
